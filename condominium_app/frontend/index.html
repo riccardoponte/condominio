@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condominium App</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Welcome to the Condominium App</h1>
+
+    <h2>Create New Announcement</h2>
+    <form id="add-announcement-form">
+        <div>
+            <label for="title">Title:</label><br>
+            <input type="text" id="title" name="title" required>
+        </div>
+        <div>
+            <label for="content">Content:</label><br>
+            <textarea id="content" name="content" rows="4" required></textarea>
+        </div>
+        <button type="submit">Add Announcement</button>
+    </form>
+    <hr>
+
+    <h2>Announcements</h2>
+    <div id="announcements-list">
+        <p>Loading announcements...</p>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
